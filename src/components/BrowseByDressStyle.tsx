@@ -13,7 +13,7 @@ const BrowseByDressStyle: React.FC = () => {
   ];
 
   return (
-    <section className="py-10 bg-gray-50">
+    <section className="py-10 bg-gray-50 md:px-0 px-7">
       <div className="container mx-auto px-6">
        
         <h2 className="text-center text-2xl md:text-3xl font-bold mb-8">

@@ -2,7 +2,7 @@ import React from 'react';
 import background from "../../public/background.png"
 const HeroSectionSub: React.FC = () => {
   return (
-    <section className="relative w-full h-[500px]">
+    <section className="relative w-full h-[500px] ">
 
       <img
         src={background} 

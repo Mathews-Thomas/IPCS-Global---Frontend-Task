@@ -53,7 +53,7 @@ const ReviewCarousel: React.FC = () => {
   };
 
   return (
-    <section className="py-10">
+    <section className="py-10 md:px-0 px-7">
       <div className="container mx-auto">
     
         <h2 className="text-3xl font-bold mb-6">OUR HAPPY CUSTOMERS</h2>

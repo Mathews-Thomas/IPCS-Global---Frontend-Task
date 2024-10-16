@@ -10,12 +10,12 @@ import item8 from "../../public/Frame 38 (1).png"
 
 const ProductCard = ({ image, title, price, oldPrice, rating }: any) => {
   return (
-    <div className="bg-white p-4 rounded-xl shadow-md">
+    <div className="bg-white p-4 rounded-xl shadow-md ">
       <img src={image} alt={title} className="w-full mb-4 rounded-lg" />
       <h3 className="text-gray-800 font-semibold text-lg">{title}</h3>
       <div className="flex items-center mt-2">
         {/* Stars and rating */}
-        <div className="flex items-center text-yellow-500">
+        <div className="flex items-center text-yellow-500 flex-wrap">
           <span>⭐</span>
           <span>⭐</span>
           <span>⭐</span>
@@ -98,7 +98,7 @@ const ProductSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-10 bg-gray-50">
+    <section className="py-10 bg-gray-50 md:px-0 px-7">
       <div className="container mx-auto px-6">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">NEW ARRIVALS</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">

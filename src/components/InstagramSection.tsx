@@ -17,7 +17,7 @@ const images = [
 
 const InstagramSection: React.FC = () => {
   return (
-    <section className="py-10">
+    <section className="py-10 md:px-0 px-7">
       <div className="container mx-auto text-center">
       
         <h2 className="text-2xl font-bold mb-6">Follow Products And Discounts On Instagram</h2>

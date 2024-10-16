@@ -41,27 +41,27 @@ const products = [
 
 const ProductCard: React.FC<{ product: any }> = ({ product }) => {
   return (
-    <div className="border rounded-lg p-4">
-      <div className="relative">
+    <div className="border rounded-lg p-4 md:px-0 px-7">
+      <div className="relative md:px-2">
         <img
           src={product.image}
           alt={product.title}
-          className="w-full h-64 object-cover rounded-md"
+          className="w-full h-64 object-cover rounded-md "
         />
         {product.sale && (
-          <span className="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+          <span className="absolute  top-2 right-2 bg-red-500 text-white text-xs px-4 py-1 rounded">
             SALE
           </span>
         )}
         {product.label && (
-          <span className="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+          <span className="absolute top-2 left-2 bg-red-500 text-white text-xs px-4 py-1 rounded">
             {product.label}
           </span>
         )}
       </div>
-      <h3 className="mt-4 font-bold text-lg">{product.title}</h3>
-      <p className="text-sm text-gray-500">{product.category}</p>
-      <div className="mt-2">
+      <h3 className="mt-4 font-bold text-lg px-2">{product.title}</h3>
+      <p className="text-sm text-gray-500 px-2">{product.category}</p>
+      <div className="mt-2 px-2">
         {product.sale ? (
           <div className="flex items-center space-x-2">
             <span className="text-red-500 font-bold">{product.price}</span>
@@ -80,8 +80,8 @@ const ProductCard: React.FC<{ product: any }> = ({ product }) => {
 
 const BestSellers: React.FC = () => {
   return (
-    <section className="py-10">
-      <div className="container mx-auto">
+    <section className="py-10 md:px-0 px-7">
+      <div className="container mx-auto ">
       
         <h2 className="text-center text-3xl font-bold mb-10">
           Best Sellers

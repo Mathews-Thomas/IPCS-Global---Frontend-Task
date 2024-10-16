@@ -6,7 +6,7 @@ import prada from "../../public/prada-logo-1 1.png"
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="bg-gray-50 py-10">
+    <section className="bg-gray-50 py-10 px-7 md:px-0">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-bold text-black leading-tight">

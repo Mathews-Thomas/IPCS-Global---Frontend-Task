@@ -14,7 +14,7 @@ const ExploreStyles: React.FC = () => {
   ];
 
   return (
-    <section className="py-10">
+    <section className="py-10 md:px-0 px-7">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         

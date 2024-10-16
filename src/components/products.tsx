@@ -113,7 +113,7 @@ const ProductCard: React.FC<{ product: any }> = ({ product }) => {
 
 const ProductGrid: React.FC = () => {
   return (
-    <section className="py-10">
+    <section className="py-10 md:px-0 px-7">
       <div className="container mx-auto">
        
         <h2 className="text-center text-3xl font-bold mb-10">

@@ -12,26 +12,26 @@ import badge4 from "../../public/Badge (4).png"
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-100 pt-10">
+    <footer className="bg-gray-100 pt-10 md:px-0 px-7">
     
       <div className="bg-black text-white py-10 px-6 rounded-lg container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="text-3xl font-bold mb-6 md:mb-0">
           STAY UPTO DATE ABOUT OUR LATEST OFFERS
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center md:flex-col flex-wrap gap-4 justify-center md:w-[30rem]">
           <input
             type="email"
             placeholder="Enter your email address"
-            className="w-full md:w-auto px-4 py-2 rounded-full text-black outline-none"
+            className="w-full md:w-full px-4 py-2 rounded-full text-black outline-none"
           />
-          <button className="ml-4 px-6 py-2 bg-white text-black font-bold rounded-full">
+          <button className="px-4 py-2 w-full md:w-full bg-white text-black font-bold rounded-full">
             Subscribe to Newsletter
           </button>
         </div>
       </div>
 
     
-      <div className="container mx-auto py-10">
+      <div className="container mx-auto py-10 md:px-0 px-7">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-sm">
          
           <div>
@@ -100,9 +100,9 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex justify-between items-center mt-10 border-t pt-6 text-sm text-gray-600">
+        <div className="flex justify-between items-center mt-10 border-t pt-6 text-sm text-gray-600 flex-wrap">
           <p>Shopco © 2000-2023. All Rights Reserved</p>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 flex-wrap items-center justify-center">
             {/* Visa SVG */}
             <img src={badge}/>
 

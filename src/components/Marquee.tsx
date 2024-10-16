@@ -15,7 +15,7 @@ const Marquee: React.FC = () => {
   ];
 
   return (
-    <section className="relative overflow-hidden py-4">
+    <section className="relative overflow-hidden py-4 md:px-0 px-7 my-7 bg-gray-100">
       <div className="flex gap-16 animate-marquee whitespace-nowrap">
         {Images.map((item, index) => (
           <div key={index} className="inline-block">
